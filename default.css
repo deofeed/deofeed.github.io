@@ -5,6 +5,10 @@ body{
     background-color: rgb(20, 20, 20);
 }
 
+img{
+    margin: 3px
+}
+
 #titleDiv{
     font-size: 30px;
     margin: 30px;

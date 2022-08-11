@@ -8,6 +8,8 @@ let feeds = [
     ,{href:"/imgs/3.jpg"}
 ]
 
+const feedno = 30;
+
 const feed_list =[
     "1.jpeg"
     ,"2.jpeg"
@@ -20,7 +22,9 @@ function init(){
     let mainbox = document.getElementById("mainbox");
 
 
-    for (const feed of feed_list){
+    //for (const feed of feed_list){
+    for(let i=1;i<=feedno;i++){
+        let feed=`${i}.jpeg`
         console.log(`feed element img string: ${feed} ::`);
         let item = document.createElement("div");
         let imago = document.createElement("img");
